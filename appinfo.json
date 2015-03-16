@@ -1,0 +1,26 @@
+{
+  "uuid": "4dc06e85-0a7e-4b4d-a5f9-ff08bd8bd38e",
+  "shortName": "non_bmp_test",
+  "longName": "non_bmp_test",
+  "companyName": "MakeAwesomeHappen",
+  "versionCode": 1,
+  "versionLabel": "1.0",
+  "sdkVersion": "3",
+  "targetPlatforms": ["aplite", "basalt"],
+  "watchapp": {
+    "watchface": false
+  },
+  "appKeys": {
+    "dummy": 0
+  },
+  "resources": {
+      "media": [
+          {
+              "type": "font",
+              "characterRegex": "[\u0030-\u0039]",
+              "name": "TEST_FONT_16",
+              "file": "unifont_upper-7.0.06.ttf"
+          }
+          ]
+  }
+}
